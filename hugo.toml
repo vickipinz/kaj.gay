@@ -13,7 +13,6 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   description = "The website of Kaj Strife"
   favicon = "images/favicon.png"
-  images = ["images/share.png"]
   title = "Kaj Strife"
   hideMadeWithLine = true
   dateFormat = "2006-01-02"
