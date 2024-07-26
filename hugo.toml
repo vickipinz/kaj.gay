@@ -1,7 +1,5 @@
 # https://gohugo.io/
 
-# https://bearblog.dev/
-theme = 'hugo-bearblog'
 baseURL = "https://kaj.gay"
 title = "Kaj Strife"
 author = "Kaj Strife"
