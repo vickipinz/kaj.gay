@@ -105,11 +105,12 @@ a.button:hover {
 
 /* SECTIONS */
 
-#header {
+header {
+	background: url('/images/backgrounds/fire.gif');
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
-	#header img {
+	header img {
 		max-width: 100%;
 		margin-left: auto;
 		margin-right: auto;
@@ -161,7 +162,7 @@ main {
 		width: 800px;
 	}
 	
-	#header { 
+	header { 
 		grid-area: header;
 	}
 	
