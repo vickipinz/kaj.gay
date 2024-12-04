@@ -1,0 +1,41 @@
+---
+title: Kaj Strife
+page:
+  sidebar: true
+---
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="/css/style.css"/>
+  </head>
+  <body{% if page.sidebar === false %} class="nosidebar" {% endif %}>
+    <header class="margin">
+      <div class="box">
+        <a href="/"><img src="/images/banners/banner2.png"></a>
+      </div>
+      <nav id="navbar" class="box margin">
+        {% include "partials/nav.njk" %}
+      </nav>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    {% if page.sidebar %}
+      <div id="sidebar">
+        <div class="box margin">
+          <h1 class="center">LINKS</h1>
+          <div class="hr"></div>
+          <nav class="imglist">
+              {% include "partials/nav.njk" %}
+          </nav>
+          <div class="hr"></div>
+          {% include "partials/socials.njk" %}
+        </div>
+      </div>
+    {% endif %}
+  </body>
+</html>

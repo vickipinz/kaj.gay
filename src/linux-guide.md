@@ -1,6 +1,9 @@
-+++
-title = "LINUX GUIDE FOR NOOBS"
-+++
+---
+layout: markdown
+title: "LINUX GUIDE FOR NOOBS"
+page:
+  sidebar: false
+---
 
 # LINUX DESKTOP GUIDE FOR BEGINNERS WITH LOW ATTENTION SPANS
 I think a lot of people try to get into Linux and end up taking a lot of bad advice. There's also a lot of good advice that you've probably already heard. So this is only advice that I don't hear people saying enough.
